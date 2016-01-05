@@ -1,0 +1,33 @@
+body {
+	background: url('../images/patterns/simple_dashed/simple_dashed.png');
+	color: #fff;
+}
+
+.container {
+	max-width: 800px;
+}
+
+.footer {
+	margin-top: 60px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.footer hr {
+	border-color: #4e4b42;
+	width: 50%;
+}
+
+.footer img {
+	width: 20px;
+}
+
+.footer .nav, .menu .nav {
+	display: inline-block;
+}
+
+.footer ul li a:hover {
+	animation-name: background;
+	animation-duration: 0.5s;
+	background-color: #969696;
+}

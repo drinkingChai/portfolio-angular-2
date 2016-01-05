@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script type="text/javascript" src="js/vendor/angular.min.js"></script>
+		<script type="text/javascript" src="js/vendor/angular-route.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+	</head>
+
+	<body ng-app="Portfolio">
+
+		<div class="view">
+			<div ng-view></div>
+		</div>
+
+		<div class="footer">
+			<div class="container">
+				<ul class="nav nav-pills">
+					<li><a href="#/"><img src="images/social_media/github.png"></a></li>
+					<li><a href="#/skills"><img src="images/social_media/linkedin.png"></a></li>
+					<li><a href="#/portfolio"><img src="images/social_media/facebook.png"></a></li>
+					<li><a href="#/github"><img src="images/social_media/twitter.png"></a></li>
+				</ul>
+				<p>Phone: 516-225-9976</p>
+				<p>Email: teatocode@gmail.com</p>
+			</div>
+		</div>
+
+
+		<!-- Modules -->
+		<script type="text/javascript" src="js/app.js"></script>
+
+		<!-- Controllers -->
+		<script type="text/javascript" src="js/controllers/PortfolioController.js"></script>
+
+		<!-- Directives -->
+
+
+		<!-- Services -->
+		<script type="text/javascript" src="js/services/portfolioData.js"></script>
+
+	</body>
+</html>
