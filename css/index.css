@@ -5,8 +5,9 @@ body {
 
 .menu {
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 .container {
-	max-width: 800px;
+	max-width: 600px;
 }

@@ -1,3 +1,30 @@
+.main .thumbnail {
+	border-width: 5px;
+}
+
+.menu_item {
+	border-radius: 0%;
+	padding: 40px;
+}
+
+.menu_item img {
+	width: 80%;
+}
+
+.menu_item_server {
+	background-color: #41A3DC;
+	border-color: #286285;
+}
+
+.menu_item_bike {
+	background-color: #3D1200;
+	border-color: #7C2601;
+}
+
+.menu_item_portfolio {
+	background: url('../images/patterns/tactile_noise/tactile_noise.png') repeat;
+	border-color: #148F14;
+}
+
 .portfolio_thumb {
-	padding: 100px;
 }
