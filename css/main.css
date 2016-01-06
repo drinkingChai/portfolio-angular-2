@@ -1,10 +1,14 @@
+.main {
+	text-align: center;
+}
+
 .main .thumbnail {
 	border-width: 5px;
 }
 
 .menu_item {
 	border-radius: 0%;
-	padding: 40px;
+	background-color: #000;
 }
 
 .menu_item img {
