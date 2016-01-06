@@ -1,0 +1,32 @@
+{
+	"itThings":
+	{
+		"title": "IT Things",
+		"blurb": "My tinkerings",
+		"imageUrl": "images/icons/it.jpg"
+	},
+	"cycling":
+	{
+		"title": "Cycling",
+		"blurb": "Riding adventures",
+		"imageUrl": "images/icons/bike.jpg"
+	},
+	"skills":
+	{
+		"title": "Skills",
+		"blurb": "Check out my skillset",
+		"imageUrl": "images/icons/skills.png"
+	},
+	"devPort":
+	{
+		"title": "Developer portfolio",
+		"blurb": "Check out my dev portfolio",
+		"imageUrl": "images/portfolio/vkthumb.png"
+	},
+	"about":
+	{
+		"title": "About me",
+		"blurb": "Find out about me",
+		"imageUrl": "images/icons/profile.jpg"
+	}
+}

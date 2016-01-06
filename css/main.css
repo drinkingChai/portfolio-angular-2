@@ -1,34 +1,14 @@
-.main {
-	text-align: center;
-}
-
 .main .thumbnail {
-	border-width: 5px;
+	border-radius: 0%;
+	padding: 50px;
 }
 
 .menu_item {
-	border-radius: 0%;
-	background-color: #000;
+	text-align: center;
+	text-decoration: none;
 }
 
-.menu_item img {
-	width: 80%;
-}
-
-.menu_item_server {
-	background-color: #41A3DC;
-	border-color: #286285;
-}
-
-.menu_item_bike {
-	background-color: #3D1200;
-	border-color: #7C2601;
-}
-
-.menu_item_portfolio {
-	background: url('../images/patterns/tactile_noise/tactile_noise.png') repeat;
-	border-color: #148F14;
-}
-
-.portfolio_thumb {
+.menu_item:hover {
+	text-decoration: none;
+	cursor: pointer;
 }

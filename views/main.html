@@ -1,41 +1,14 @@
 <div class="container main">
 	<div class="row">
 		<div class="col-md-4">
-			<div class="menu_item menu_item_server thumbnail">
-				<img src="images/icons/Server-01-256.png"/>
-				<h3>IT</h3>
-				<p>My tinkerings</p>
-			</div>
-			<div class="menu_item menu_item_bike thumbnail">
-				<img src="images/icons/Cycling-256.png"/>
-				<h3>Cycling</h3>
-				<p>My riding adventures</p>
+			<div ng-repeat="item in leftCol">
+				<menu-thumbnail info="item"></menu-thumbnail>
 			</div>
 		</div>
 
 		<div class="col-md-8">
-			<div class="menu_item thumbnail menu_item_portfolio">
-				<img src="images/icons/Folder-Picture-256.png"/>
-				<h3>Developer Portfolio</h3>
-				<p>Check out my projects</p>
-			</div>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="col-md-10">
-			<div class="menu_item menu_item_about thumbnail">
-				<img src="images/icons/Source-Code-256.png">
-				<h3>About me</h3>
-				<p>Find out about me</p>
-			</div>
-		</div>
-
-		<div class="col-md-2">
-			<div class="menu_item menu_item_about thumbnail">
-				<img src="images/icons/Dialog-Box-About-256.png">
-				<h3>Skills</h3>
-				<p>My skillset</p>
+			<div ng-repeat="item in rightCol">
+				<menu-thumbnail info="item"></menu-thumbnail>
 			</div>
 		</div>
 	</div>
