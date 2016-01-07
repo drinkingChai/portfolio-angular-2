@@ -1,0 +1,7 @@
+body {
+	background: url('../images/patterns/ignasi_pattern_s/ignasi_pattern_s.png') repeat;
+}
+
+.container {
+	max-width: 800px;
+}

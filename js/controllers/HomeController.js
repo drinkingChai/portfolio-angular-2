@@ -1,6 +1,6 @@
 app.controller("HomeController", ["$scope", "homeData", function($scope, homeData) {
 	homeData.success(function(data) {
-		$scope.leftCol = [data.itThings, data.cycling, data.skills];
+		$scope.leftCol = [data.skills, data.cycling, data.itThings];
 		$scope.rightCol = [data.devPort, data.about]
 	});
 }])
