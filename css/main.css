@@ -1,14 +1,33 @@
-.main {
+menu-button {
+	display: inline-block;
+}
+
+.button_portfolio .button {
+	background: url('../images/backgrounds/code2.jpg') no-repeat center center;
+}
+
+.hobbies {
+	background: url('../images/backgrounds/cycling.jpg') no-repeat center center;
+}
+
+menu-button .button .outer {
+	display: inline-block;
+	width: 175px;
+	height: 175px;
+	border-radius: 100%;
 	text-transform: capitalize;
+	background-color: #EDEAFF;
 }
 
-.main .thumbnail {
-	border-radius: 0%;
+menu-button .button:hover {
+	background-color: #948EB2;
+	color: #fff;
 }
 
-.menu_item {
-	text-align: center;
-}
-
-@media: (max-width: 992px) {
+.button .inner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	width: 125px;
 }
