@@ -2,50 +2,13 @@
 	text-transform: capitalize;
 }
 
-.col_2 {
-	border-right: solid 1px #000;
-}
-
-.nopadding {
-	padding: 0;
-	margin: 0;
-	border-left: solid 1px #000;
-}
-
-.main h3 {
-	font-size: 30px;
-	font-weight: 600;
-	text-transform: uppercase;
-}
-
-.border_bottom {
-	border-bottom: solid 1px #000;
-}
-
 .main .thumbnail {
 	border-radius: 0%;
-	border-width: 0;
 }
 
 .menu_item {
 	text-align: center;
-	text-decoration: none;
-	background-color: transparent;
-	padding: 30px;
-}
-
-.menu_item_image {
-	/*border: solid 5px rgba(0, 0, 0, 0.1);*/
-	width: 100%;
-}
-
-.main .btn {
-	word-spacing: whitespace;
-	border-width: 0;
 }
 
 @media: (max-width: 992px) {
-	.col_1 {
-		border-right: solid 1px #000;
-	}
 }
