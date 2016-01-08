@@ -2,31 +2,26 @@
 	"itThings":
 	{
 		"title": "My tinkerings",
-		"blurb": "My tinkerings",
 		"imageUrl": "images/icons/itthings.png"
 	},
 	"cycling":
 	{
 		"title": "Cycling adventures",
-		"blurb": "Riding adventures",
 		"imageUrl": "images/icons/bike.jpg"
 	},
 	"skills":
 	{
 		"title": "Skills",
-		"blurb": "My skillset",
 		"imageUrl": "images/icons/skills.png"
 	},
 	"portfolio":
 	{
 		"title": "Developer portfolio",
-		"blurb": "Check out my developer portfolio",
 		"imageUrl": "images/icons/portfolio.png"
 	},
 	"about":
 	{
 		"title": "About me",
-		"blurb": "Find out about me",
 		"imageUrl": "images/icons/profile.jpg"
 	}
 }
