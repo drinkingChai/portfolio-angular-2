@@ -1,3 +1,36 @@
 body {
+	background: url('../images/patterns/purty_wood/purty_wood.png') repeat fixed;
+}
+
+.header, .footer {
 	text-align: center;
+	font-weight: 600;
+}
+
+.header .container, .footer .container {
+	padding: 40px;
+}
+
+.paper {
+	background: url('../images/patterns/lightpaperfibers/lightpaperfibers.png') repeat;
+}
+
+.lego_green {
+	background: url('../images/patterns/lego_green.png') repeat fixed;
+}
+
+.lego_red {
+	background: url('../images/patterns/lego_red.png') repeat fixed;
+}
+
+.lego_blue {
+	background: url('../images/patterns/lego_blue.png') repeat fixed;
+}
+
+.lego_yellow {
+	background: url('../images/patterns/lego_yellow.png') repeat fixed;
+}
+
+.lego_pink {
+	background: url('../images/patterns/lego_pink.png') repeat fixed;
 }
